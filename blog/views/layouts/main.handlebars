@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    {{!-- Bootstrap --}}
+    <link rel="stylesheet" href="/libs/bootstrap/css/bootstrap.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    {{>_navbar}}
+    <section class="container mt-5">
+        {{{body}}}
+    </section>
+</body>
+{{!-- jQuery --}}
+<script src="/libs/jQuery/jquery-3.6.0.js"></script>
+{{!-- Popper e BootStrap --}}
+<script src="/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</html>
